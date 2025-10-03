@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/contacts")
-@CrossOrigin(origins = "http://localhost:3000") // React dev URL
+@CrossOrigin(origins = "https://your-contacts-manager.netlify.app/") // React dev URL
 public class ContactController {
     private final ContactService service;
 
